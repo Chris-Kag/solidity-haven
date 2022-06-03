@@ -1,0 +1,101 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="365pt" height="400pt" viewBox="0.00 0.00 364.63 400.00">
+<g id="graph0" class="graph" transform="translate(4,396) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-396 360.63,-396 360.63,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterIMultiTokenBank">
+
+<path fill="#445773" stroke="#445773" d="M208.71,-8C208.71,-8 344.63,-8 344.63,-8 350.63,-8 356.63,-14 356.63,-20 356.63,-20 356.63,-235 356.63,-235 356.63,-241 350.63,-247 344.63,-247 344.63,-247 208.71,-247 208.71,-247 202.71,-247 196.71,-241 196.71,-235 196.71,-235 196.71,-20 196.71,-20 196.71,-14 202.71,-8 208.71,-8" style=""/>
+<text text-anchor="middle" x="276.67" y="-230.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IMultiTokenBank  (iface)</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterMultiTokenBankExploit">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 164.71,-8 164.71,-8 170.71,-8 176.71,-14 176.71,-20 176.71,-20 176.71,-181 176.71,-181 176.71,-187 170.71,-193 164.71,-193 164.71,-193 20,-193 20,-193 14,-193 8,-187 8,-181 8,-181 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="92.35" y="-176.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">MultiTokenBankExploit</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="19.35,-255 19.35,-384 311.17,-384 311.17,-255 19.35,-255" style=""/>
+<text text-anchor="middle" x="165.26" y="-367.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- IMultiTokenBank.balances -->
+<g id="node1" class="node" pointer-events="visible" data-name="IMultiTokenBank.balances">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="276.17" cy="-196" rx="44.06" ry="18" style=""/>
+<text text-anchor="middle" x="276.17" y="-191.8" font-family="Times,serif" font-size="14.00" style="">balances</text>
+</g>
+<!-- IMultiTokenBank.depositMany -->
+<g id="node2" class="node" pointer-events="visible" data-name="IMultiTokenBank.depositMany">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="276.17" cy="-142" rx="61.42" ry="18" style=""/>
+<text text-anchor="middle" x="276.17" y="-137.8" font-family="Times,serif" font-size="14.00" style="">depositMany</text>
+</g>
+<!-- IMultiTokenBank.deposit -->
+<g id="node3" class="node" pointer-events="visible" data-name="IMultiTokenBank.deposit">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="276.17" cy="-88" rx="38.86" ry="18" style=""/>
+<text text-anchor="middle" x="276.17" y="-83.8" font-family="Times,serif" font-size="14.00" style="">deposit</text>
+</g>
+<!-- IMultiTokenBank.withdraw -->
+<g id="node4" class="node" pointer-events="visible" data-name="IMultiTokenBank.withdraw">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="276.17" cy="-34" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="276.17" y="-29.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- MultiTokenBankExploit.&lt;Constructor&gt; -->
+<g id="node5" class="node" pointer-events="visible" data-name="MultiTokenBankExploit.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="92.35" cy="-142" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-137.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- MultiTokenBankExploit.&lt;Receive Ether&gt; -->
+<g id="node6" class="node" pointer-events="visible" data-name="MultiTokenBankExploit.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="92.35" cy="-88" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-83.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- MultiTokenBankExploit.pwn -->
+<g id="node7" class="node" pointer-events="visible" data-name="MultiTokenBankExploit.pwn">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="92.35" cy="-34" rx="27.84" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-29.8" font-family="Times,serif" font-size="14.00" style="">pwn</text>
+</g>
+<!-- MultiTokenBankExploit.pwn&#45;&gt;IMultiTokenBank.withdraw -->
+<g id="edge1" class="edge" data-name="MultiTokenBankExploit.pwn-&gt;IMultiTokenBank.withdraw">
+
+<path fill="none" stroke="white" stroke-width="2" d="M120.18,-34C145.85,-34 185.39,-34 218.11,-34" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="218.46,-37.5 228.46,-34 218.46,-30.5 218.46,-37.5" style=""/>
+</g>
+<!-- key -->
+<g id="node8" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="157.35,-351 27.35,-351 27.35,-263 157.35,-263 157.35,-351" style=""/>
+<text text-anchor="start" x="76.99" y="-332.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="73.1" y="-312.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="50.56" y="-292.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="36.95" y="-272.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node9" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="303.17,-351 249.17,-351 249.17,-263 303.17,-263 303.17,-351" style=""/>
+<text text-anchor="start" x="266.17" y="-332.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="266.17" y="-312.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="264.17,-287 264.17,-307 289.17,-307 289.17,-287 264.17,-287" style=""/>
+<text text-anchor="start" x="266.17" y="-292.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="266.17,-269 266.17,-285 287.17,-285 287.17,-269 266.17,-269" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge2" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M150.35,-337C196.97,-337 211.08,-337 253.12,-337" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="253.17,-340.5 263.17,-337 253.17,-333.5 253.17,-340.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M150.35,-317C196.97,-317 211.08,-317 253.12,-317" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="253.17,-320.5 263.17,-317 253.17,-313.5 253.17,-320.5" style=""/>
+</g>
+</g>
+</svg>

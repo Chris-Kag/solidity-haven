@@ -1,0 +1,126 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="540pt" height="346pt" viewBox="0.00 0.00 540.41 346.00">
+<g id="graph0" class="graph" transform="translate(12.654269534668543,235.63390132160316) scale(1.0000000000000002)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-342 536.41,-342 536.41,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterVerifySig">
+
+<path fill="#445773" stroke="#445773" d="M23.54,-8C23.54,-8 512.41,-8 512.41,-8 518.41,-8 524.41,-14 524.41,-20 524.41,-20 524.41,-181 524.41,-181 524.41,-187 518.41,-193 512.41,-193 512.41,-193 23.54,-193 23.54,-193 17.54,-193 11.54,-187 11.54,-181 11.54,-181 11.54,-20 11.54,-20 11.54,-14 17.54,-8 23.54,-8" style=""/>
+<text text-anchor="middle" x="267.98" y="-176.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">VerifySig</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="8,-201 8,-330 333.71,-330 333.71,-201 8,-201" style=""/>
+<text text-anchor="middle" x="170.85" y="-313.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- VerifySig.getMessageHash -->
+<g id="node1" class="node" pointer-events="visible" data-name="VerifySig.getMessageHash">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="298.71" cy="-142" rx="76.44" ry="18" style=""/>
+<text text-anchor="middle" x="298.71" y="-137.8" font-family="Times,serif" font-size="14.00" style="">getMessageHash</text>
+</g>
+<!-- VerifySig.getEthSignedMessageHash -->
+<g id="node2" class="node" pointer-events="visible" data-name="VerifySig.getEthSignedMessageHash">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="298.71" cy="-34" rx="116.91" ry="18" style=""/>
+<text text-anchor="middle" x="298.71" y="-29.8" font-family="Times,serif" font-size="14.00" style="">getEthSignedMessageHash</text>
+</g>
+<!-- VerifySig._split -->
+<g id="node3" class="node" pointer-events="visible" data-name="VerifySig._split">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="483.91" cy="-88" rx="32.5" ry="18" style=""/>
+<text text-anchor="middle" x="483.91" y="-83.8" font-family="Times,serif" font-size="14.00" style="">_split</text>
+</g>
+<!-- VerifySig.recover -->
+<g id="node4" class="node" pointer-events="visible" data-name="VerifySig.recover">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="298.71" cy="-88" rx="39.97" ry="18" style=""/>
+<text text-anchor="middle" x="298.71" y="-83.8" font-family="Times,serif" font-size="14.00" style="">recover</text>
+</g>
+<!-- VerifySig.recover&#45;&gt;VerifySig._split -->
+<g id="edge1" class="edge" data-name="VerifySig.recover-&gt;VerifySig._split">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M339.01,-88C369.01,-88 410.27,-88 440.92,-88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="441.28,-91.5 451.28,-88 441.28,-84.5 441.28,-91.5" style=""/>
+</g>
+<!-- VerifySig.verify -->
+<g id="node5" class="node" pointer-events="visible" data-name="VerifySig.verify">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="81" cy="-115" rx="34.19" ry="18" style=""/>
+<text text-anchor="middle" x="81" y="-110.8" font-family="Times,serif" font-size="14.00" style="">verify</text>
+</g>
+<!-- VerifySig.verify&#45;&gt;VerifySig.getMessageHash -->
+<g id="edge2" class="edge" data-name="VerifySig.verify-&gt;VerifySig.getMessageHash">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M114.29,-119.04C142.33,-122.55 184.06,-127.78 220.64,-132.35" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="220.45,-135.86 230.8,-133.63 221.31,-128.91 220.45,-135.86" style=""/>
+</g>
+<!-- VerifySig.verify&#45;&gt;VerifySig.getEthSignedMessageHash -->
+<g id="edge3" class="edge" data-name="VerifySig.verify-&gt;VerifySig.getEthSignedMessageHash">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M109.8,-104.99C121.31,-100.41 134.6,-94.55 146,-88 163.34,-78.04 163.87,-69.45 182,-61 190.97,-56.82 200.65,-53.25 210.45,-50.22" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="211.64,-53.52 220.27,-47.37 209.69,-46.8 211.64,-53.52" style=""/>
+</g>
+<!-- VerifySig.verify&#45;&gt;VerifySig.recover -->
+<g id="edge4" class="edge" data-name="VerifySig.verify-&gt;VerifySig.recover">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M114.29,-110.96C150.26,-106.46 208.77,-99.13 250.02,-93.97" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="250.62,-97.42 260.11,-92.71 249.75,-90.48 250.62,-97.42" style=""/>
+</g>
+<!-- VerifySig.testSignature -->
+<g id="node6" class="node" pointer-events="visible" data-name="VerifySig.testSignature">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="81" cy="-61" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="81" y="-56.8" font-family="Times,serif" font-size="14.00" style="">testSignature</text>
+</g>
+<!-- VerifySig.testSignature&#45;&gt;VerifySig.getMessageHash -->
+<g id="edge5" class="edge" data-name="VerifySig.testSignature-&gt;VerifySig.getMessageHash">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M119.63,-75.07C128.48,-78.87 137.74,-83.26 146,-88 163.34,-97.96 163.87,-106.55 182,-115 195.21,-121.16 209.95,-125.98 224.37,-129.73" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="223.73,-133.17 234.27,-132.15 225.39,-126.37 223.73,-133.17" style=""/>
+</g>
+<!-- VerifySig.testSignature&#45;&gt;VerifySig.getEthSignedMessageHash -->
+<g id="edge6" class="edge" data-name="VerifySig.testSignature-&gt;VerifySig.getEthSignedMessageHash">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M137.83,-54.01C156.07,-51.73 176.91,-49.12 197.4,-46.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="197.92,-50.02 207.41,-45.3 197.05,-43.07 197.92,-50.02" style=""/>
+</g>
+<!-- VerifySig.testSignature&#45;&gt;VerifySig.recover -->
+<g id="edge7" class="edge" data-name="VerifySig.testSignature-&gt;VerifySig.recover">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M137.83,-67.99C172.52,-72.33 216.66,-77.86 249.77,-82" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="249.74,-85.52 260.1,-83.29 250.61,-78.58 249.74,-85.52" style=""/>
+</g>
+<!-- key -->
+<g id="node7" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="146,-297 16,-297 16,-209 146,-209 146,-297" style=""/>
+<text text-anchor="start" x="65.64" y="-278.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="61.75" y="-258.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="39.2" y="-238.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="25.6" y="-218.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node8" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="325.71,-297 271.71,-297 271.71,-209 325.71,-209 325.71,-297" style=""/>
+<text text-anchor="start" x="288.71" y="-278.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="288.71" y="-258.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="286.71,-233 286.71,-253 311.71,-253 311.71,-233 286.71,-233" style=""/>
+<text text-anchor="start" x="288.71" y="-238.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="288.71,-215 288.71,-231 309.71,-231 309.71,-215 288.71,-215" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge8" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M139,-283C200.64,-283 218.57,-283 275.43,-283" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="275.71,-286.5 285.71,-283 275.71,-279.5 275.71,-286.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge9" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M139,-263C200.64,-263 218.57,-263 275.43,-263" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="275.71,-266.5 285.71,-263 275.71,-259.5 275.71,-266.5" style=""/>
+</g>
+</g>
+</svg>

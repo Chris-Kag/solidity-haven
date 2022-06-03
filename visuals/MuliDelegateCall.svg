@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="402pt" height="431pt" viewBox="0.00 0.00 402.21 431.00">
+<g id="graph0" class="graph" transform="translate(4,427) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-427 398.21,-427 398.21,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterMultiDelegatecall">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 374.21,-8 374.21,-8 380.21,-8 386.21,-14 386.21,-20 386.21,-20 386.21,-127 386.21,-127 386.21,-133 380.21,-139 374.21,-139 374.21,-139 20,-139 20,-139 14,-139 8,-133 8,-127 8,-127 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="197.1" y="-122.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">MultiDelegatecall</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterTestMultiDelegatecall">
+
+<path fill="#445773" stroke="#445773" d="M37.65,-147C37.65,-147 154.7,-147 154.7,-147 160.7,-147 166.7,-153 166.7,-159 166.7,-159 166.7,-266 166.7,-266 166.7,-272 160.7,-278 154.7,-278 154.7,-278 37.65,-278 37.65,-278 31.65,-278 25.65,-272 25.65,-266 25.65,-266 25.65,-159 25.65,-159 25.65,-153 31.65,-147 37.65,-147" style=""/>
+<text text-anchor="middle" x="96.18" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TestMultiDelegatecall</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="22.68,-286 22.68,-415 329.78,-415 329.78,-286 22.68,-286" style=""/>
+<text text-anchor="middle" x="176.23" y="-398.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- MultiDelegatecall.multiDelegatecall -->
+<g id="node1" class="node" pointer-events="visible" data-name="MultiDelegatecall.multiDelegatecall">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="95.68" cy="-61" rx="79.85" ry="18" style=""/>
+<text text-anchor="middle" x="95.68" y="-56.8" font-family="Times,serif" font-size="14.00" style="">multiDelegatecall</text>
+</g>
+<!-- MultiDelegatecall.delegatecall -->
+<g id="node2" class="node" pointer-events="visible" data-name="MultiDelegatecall.delegatecall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="294.78" cy="-34" rx="57.29" ry="18" style=""/>
+<text text-anchor="middle" x="294.78" y="-29.8" font-family="Times,serif" font-size="14.00" style="">delegatecall</text>
+</g>
+<!-- MultiDelegatecall.multiDelegatecall&#45;&gt;MultiDelegatecall.delegatecall -->
+<g id="edge1" class="edge" data-name="MultiDelegatecall.multiDelegatecall-&gt;MultiDelegatecall.delegatecall">
+
+<path fill="none" stroke="#80e097" stroke-width="2" d="M164.23,-51.75C186.26,-48.73 210.6,-45.4 232.17,-42.44" style=""/>
+<polygon fill="#80e097" stroke="#80e097" stroke-width="2" points="232.75,-45.89 242.19,-41.07 231.8,-38.96 232.75,-45.89" style=""/>
+</g>
+<!-- MultiDelegatecall.DelegatecallFailed -->
+<g id="node3" class="node" pointer-events="visible" data-name="MultiDelegatecall.DelegatecallFailed">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="294.78" cy="-88" rx="83.35" ry="18" style=""/>
+<text text-anchor="middle" x="294.78" y="-83.8" font-family="Times,serif" font-size="14.00" style="">DelegatecallFailed</text>
+</g>
+<!-- MultiDelegatecall.multiDelegatecall&#45;&gt;MultiDelegatecall.DelegatecallFailed -->
+<g id="edge2" class="edge" data-name="MultiDelegatecall.multiDelegatecall-&gt;MultiDelegatecall.DelegatecallFailed">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M164.23,-70.25C180.2,-72.44 197.37,-74.79 213.83,-77.05" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="213.58,-80.55 223.96,-78.44 214.53,-73.61 213.58,-80.55" style=""/>
+</g>
+<!-- TestMultiDelegatecall.func1 -->
+<g id="node4" class="node" pointer-events="visible" data-name="TestMultiDelegatecall.func1">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="95.68" cy="-227" rx="33.05" ry="18" style=""/>
+<text text-anchor="middle" x="95.68" y="-222.8" font-family="Times,serif" font-size="14.00" style="">func1</text>
+</g>
+<!-- TestMultiDelegatecall.func2 -->
+<g id="node5" class="node" pointer-events="visible" data-name="TestMultiDelegatecall.func2">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="95.68" cy="-173" rx="33.05" ry="18" style=""/>
+<text text-anchor="middle" x="95.68" y="-168.8" font-family="Times,serif" font-size="14.00" style="">func2</text>
+</g>
+<!-- key -->
+<g id="node6" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="160.68,-382 30.68,-382 30.68,-294 160.68,-294 160.68,-382" style=""/>
+<text text-anchor="start" x="80.31" y="-363.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="76.43" y="-343.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="53.88" y="-323.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="40.28" y="-303.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node7" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="321.78,-382 267.78,-382 267.78,-294 321.78,-294 321.78,-382" style=""/>
+<text text-anchor="start" x="284.78" y="-363.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="284.78" y="-343.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="282.78,-318 282.78,-338 307.78,-338 307.78,-318 282.78,-318" style=""/>
+<text text-anchor="start" x="284.78" y="-323.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="284.78,-300 284.78,-316 305.78,-316 305.78,-300 284.78,-300" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M153.68,-368C207.05,-368 222.9,-368 271.58,-368" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="271.78,-371.5 281.78,-368 271.78,-364.5 271.78,-371.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge4" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M153.68,-348C207.05,-348 222.9,-348 271.58,-348" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="271.78,-351.5 281.78,-348 271.78,-344.5 271.78,-351.5" style=""/>
+</g>
+</g>
+</svg>

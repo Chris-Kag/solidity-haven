@@ -1,0 +1,83 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320pt" height="292pt" viewBox="0.00 0.00 320.29 292.00">
+<g id="graph0" class="graph" transform="translate(4,288) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-288 316.29,-288 316.29,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterDelegateCall">
+
+<path fill="#445773" stroke="#445773" d="M43.92,-8C43.92,-8 118.08,-8 118.08,-8 124.08,-8 130.08,-14 130.08,-20 130.08,-20 130.08,-127 130.08,-127 130.08,-133 124.08,-139 118.08,-139 118.08,-139 43.92,-139 43.92,-139 37.92,-139 31.92,-133 31.92,-127 31.92,-127 31.92,-20 31.92,-20 31.92,-14 37.92,-8 43.92,-8" style=""/>
+<text text-anchor="middle" x="81" y="-122.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">DelegateCall</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_test">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M186,-35C186,-35 292.29,-35 292.29,-35 298.29,-35 304.29,-41 304.29,-47 304.29,-47 304.29,-100 304.29,-100 304.29,-106 298.29,-112 292.29,-112 292.29,-112 186,-112 186,-112 180,-112 174,-106 174,-100 174,-100 174,-47 174,-47 174,-41 180,-35 186,-35" style=""/>
+<text text-anchor="middle" x="239.14" y="-95.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">_test</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="8,-147 8,-276 274.14,-276 274.14,-147 8,-147" style=""/>
+<text text-anchor="middle" x="141.07" y="-259.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- DelegateCall.setVars -->
+<g id="node1" class="node" pointer-events="visible" data-name="DelegateCall.setVars">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="81" cy="-88" rx="40" ry="18" style=""/>
+<text text-anchor="middle" x="81" y="-83.8" font-family="Times,serif" font-size="14.00" style="">setVars</text>
+</g>
+<!-- _test.delegatecall -->
+<g id="node3" class="node" pointer-events="visible" data-name="_test.delegatecall">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="239.14" cy="-61" rx="57.29" ry="18" style=""/>
+<text text-anchor="middle" x="239.14" y="-56.8" font-family="Times,serif" font-size="14.00" style="">delegatecall</text>
+</g>
+<!-- DelegateCall.setVars&#45;&gt;_test.delegatecall -->
+<g id="edge1" class="edge" data-name="DelegateCall.setVars-&gt;_test.delegatecall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M118.61,-81.67C136.5,-78.58 158.48,-74.78 178.69,-71.28" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="179.5,-74.69 188.76,-69.54 178.31,-67.79 179.5,-74.69" style=""/>
+</g>
+<!-- DelegateCall.setNum -->
+<g id="node2" class="node" pointer-events="visible" data-name="DelegateCall.setNum">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="81" cy="-34" rx="41.16" ry="18" style=""/>
+<text text-anchor="middle" x="81" y="-29.8" font-family="Times,serif" font-size="14.00" style="">setNum</text>
+</g>
+<!-- DelegateCall.setNum&#45;&gt;_test.delegatecall -->
+<g id="edge2" class="edge" data-name="DelegateCall.setNum-&gt;_test.delegatecall">
+
+<path fill="none" stroke="white" stroke-width="2" d="M119.4,-40.47C137.15,-43.54 158.8,-47.28 178.72,-50.72" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="178.19,-54.19 188.64,-52.44 179.39,-47.29 178.19,-54.19" style=""/>
+</g>
+<!-- key -->
+<g id="node4" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="146,-243 16,-243 16,-155 146,-155 146,-243" style=""/>
+<text text-anchor="start" x="65.64" y="-224.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="61.75" y="-204.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="39.2" y="-184.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="25.6" y="-164.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node5" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="266.14,-243 212.14,-243 212.14,-155 266.14,-155 266.14,-243" style=""/>
+<text text-anchor="start" x="229.14" y="-224.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="229.14" y="-204.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="227.14,-179 227.14,-199 252.14,-199 252.14,-179 227.14,-179" style=""/>
+<text text-anchor="start" x="229.14" y="-184.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="229.14,-161 229.14,-177 250.14,-177 250.14,-161 229.14,-161" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M139,-229C174.1,-229 185.34,-229 215.97,-229" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="216.14,-232.5 226.14,-229 216.14,-225.5 216.14,-232.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge4" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M139,-209C174.1,-209 185.34,-209 215.97,-209" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="216.14,-212.5 226.14,-209 216.14,-205.5 216.14,-212.5" style=""/>
+</g>
+</g>
+</svg>

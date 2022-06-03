@@ -1,0 +1,119 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="334pt" height="431pt" viewBox="0.00 0.00 333.96 431.00">
+<g id="graph0" class="graph" transform="translate(4,427) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-427 329.96,-427 329.96,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterIERC721">
+
+<path fill="#445773" stroke="#445773" d="M191.05,-8C191.05,-8 305.96,-8 305.96,-8 311.96,-8 317.96,-14 317.96,-20 317.96,-20 317.96,-73 317.96,-73 317.96,-79 311.96,-85 305.96,-85 305.96,-85 191.05,-85 191.05,-85 185.05,-85 179.05,-79 179.05,-73 179.05,-73 179.05,-20 179.05,-20 179.05,-14 185.05,-8 191.05,-8" style=""/>
+<text text-anchor="middle" x="248.5" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">IERC721  (iface)</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterDutchAuction">
+
+<path fill="#445773" stroke="#445773" d="M20,-93C20,-93 300.05,-93 300.05,-93 306.05,-93 312.05,-99 312.05,-105 312.05,-105 312.05,-266 312.05,-266 312.05,-272 306.05,-278 300.05,-278 300.05,-278 20,-278 20,-278 14,-278 8,-272 8,-266 8,-266 8,-105 8,-105 8,-99 14,-93 20,-93" style=""/>
+<text text-anchor="middle" x="160.03" y="-261.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">DutchAuction</text>
+</g>
+<g id="clust3" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="10.53,-286 10.53,-415 283.5,-415 283.5,-286 10.53,-286" style=""/>
+<text text-anchor="middle" x="147.02" y="-398.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- IERC721.transferFrom -->
+<g id="node1" class="node" pointer-events="visible" data-name="IERC721.transferFrom">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-34" rx="61.41" ry="18" style=""/>
+<text text-anchor="middle" x="248.5" y="-29.8" font-family="Times,serif" font-size="14.00" style="">transferFrom</text>
+</g>
+<!-- DutchAuction.&lt;Constructor&gt; -->
+<g id="node2" class="node" pointer-events="visible" data-name="DutchAuction.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="83.53" cy="-227" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-222.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- DutchAuction.payable -->
+<g id="node5" class="node" pointer-events="visible" data-name="DutchAuction.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-227" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="248.5" y="-222.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- DutchAuction.&lt;Constructor&gt;&#45;&gt;DutchAuction.payable -->
+<g id="edge1" class="edge" data-name="DutchAuction.&lt;Constructor&gt;-&gt;DutchAuction.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M151.29,-227C166.57,-227 182.56,-227 197.02,-227" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="197.25,-230.5 207.25,-227 197.25,-223.5 197.25,-230.5" style=""/>
+</g>
+<!-- DutchAuction.getPrice -->
+<g id="node3" class="node" pointer-events="visible" data-name="DutchAuction.getPrice">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-119" rx="42.85" ry="18" style=""/>
+<text text-anchor="middle" x="248.5" y="-114.8" font-family="Times,serif" font-size="14.00" style="">getPrice</text>
+</g>
+<!-- DutchAuction.buy -->
+<g id="node4" class="node" pointer-events="visible" data-name="DutchAuction.buy">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="83.53" cy="-146" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="83.53" y="-141.8" font-family="Times,serif" font-size="14.00" style="">buy</text>
+</g>
+<!-- DutchAuction.buy&#45;&gt;IERC721.transferFrom -->
+<g id="edge3" class="edge" data-name="DutchAuction.buy-&gt;IERC721.transferFrom">
+
+<path fill="none" stroke="white" stroke-width="2" d="M102.9,-133.37C130.03,-114.73 181.21,-79.56 214.83,-56.46" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="217.13,-59.12 223.39,-50.57 213.17,-53.35 217.13,-59.12" style=""/>
+</g>
+<!-- DutchAuction.buy&#45;&gt;DutchAuction.getPrice -->
+<g id="edge2" class="edge" data-name="DutchAuction.buy-&gt;DutchAuction.getPrice">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M109.99,-141.78C133.62,-137.87 169.42,-131.94 198.57,-127.11" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="199.28,-130.54 208.57,-125.45 198.13,-123.63 199.28,-130.54" style=""/>
+</g>
+<!-- DutchAuction.buy&#45;&gt;DutchAuction.payable -->
+<g id="edge4" class="edge" data-name="DutchAuction.buy-&gt;DutchAuction.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M104,-158.22C122.81,-169.76 152.3,-187.16 179.05,-200 187.86,-204.22 197.51,-208.33 206.71,-212.02" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="205.5,-215.3 216.09,-215.69 208.06,-208.79 205.5,-215.3" style=""/>
+</g>
+<!-- DutchAuction.selfdestruct -->
+<g id="node6" class="node" pointer-events="visible" data-name="DutchAuction.selfdestruct">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="248.5" cy="-173" rx="55.6" ry="18" style=""/>
+<text text-anchor="middle" x="248.5" y="-168.8" font-family="Times,serif" font-size="14.00" style="">selfdestruct</text>
+</g>
+<!-- DutchAuction.buy&#45;&gt;DutchAuction.selfdestruct -->
+<g id="edge5" class="edge" data-name="DutchAuction.buy-&gt;DutchAuction.selfdestruct">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M109.99,-150.22C130.95,-153.69 161.49,-158.75 188.47,-163.22" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="188.17,-166.72 198.61,-164.9 189.31,-159.81 188.17,-166.72" style=""/>
+</g>
+<!-- key -->
+<g id="node7" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="148.53,-382 18.53,-382 18.53,-294 148.53,-294 148.53,-382" style=""/>
+<text text-anchor="start" x="68.16" y="-363.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="64.27" y="-343.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="41.73" y="-323.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="28.13" y="-303.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node8" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="275.5,-382 221.5,-382 221.5,-294 275.5,-294 275.5,-382" style=""/>
+<text text-anchor="start" x="238.5" y="-363.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="238.5" y="-343.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="236.5,-318 236.5,-338 261.5,-338 261.5,-318 236.5,-318" style=""/>
+<text text-anchor="start" x="238.5" y="-323.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="238.5,-300 238.5,-316 259.5,-316 259.5,-300 238.5,-300" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M141.53,-368C179.7,-368 191.71,-368 225.39,-368" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="225.5,-371.5 235.5,-368 225.5,-364.5 225.5,-371.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge7" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M141.53,-348C179.7,-348 191.71,-348 225.39,-348" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="225.5,-351.5 235.5,-348 225.5,-344.5 225.5,-351.5" style=""/>
+</g>
+</g>
+</svg>

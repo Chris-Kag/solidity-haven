@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340pt" height="346pt" viewBox="0.00 0.00 339.80 346.00">
+<g id="graph0" class="graph" transform="translate(4,342) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-342 335.8,-342 335.8,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterPiggyBank">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 311.8,-8 311.8,-8 317.8,-8 323.8,-14 323.8,-20 323.8,-20 323.8,-181 323.8,-181 323.8,-187 317.8,-193 311.8,-193 311.8,-193 20,-193 20,-193 14,-193 8,-187 8,-181 8,-181 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="165.9" y="-176.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">PiggyBank</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="19.35,-201 19.35,-330 295.25,-330 295.25,-201 19.35,-201" style=""/>
+<text text-anchor="middle" x="157.3" y="-313.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- PiggyBank.&lt;Constructor&gt; -->
+<g id="node1" class="node" pointer-events="visible" data-name="PiggyBank.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="92.35" cy="-142" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-137.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- PiggyBank.&lt;Receive Ether&gt; -->
+<g id="node2" class="node" pointer-events="visible" data-name="PiggyBank.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="92.35" cy="-88" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-83.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- PiggyBank.withdraw -->
+<g id="node3" class="node" pointer-events="visible" data-name="PiggyBank.withdraw">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="92.35" cy="-34" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-29.8" font-family="Times,serif" font-size="14.00" style="">withdraw</text>
+</g>
+<!-- PiggyBank.selfdestruct -->
+<g id="node4" class="node" pointer-events="visible" data-name="PiggyBank.selfdestruct">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="260.25" cy="-34" rx="55.6" ry="18" style=""/>
+<text text-anchor="middle" x="260.25" y="-29.8" font-family="Times,serif" font-size="14.00" style="">selfdestruct</text>
+</g>
+<!-- PiggyBank.withdraw&#45;&gt;PiggyBank.selfdestruct -->
+<g id="edge1" class="edge" data-name="PiggyBank.withdraw-&gt;PiggyBank.selfdestruct">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M140.01,-34C156.83,-34 176.13,-34 194.24,-34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="194.44,-37.5 204.44,-34 194.44,-30.5 194.44,-37.5" style=""/>
+</g>
+<!-- PiggyBank.payable -->
+<g id="node5" class="node" pointer-events="visible" data-name="PiggyBank.payable">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="260.25" cy="-88" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="260.25" y="-83.8" font-family="Times,serif" font-size="14.00" style="">payable</text>
+</g>
+<!-- PiggyBank.withdraw&#45;&gt;PiggyBank.payable -->
+<g id="edge2" class="edge" data-name="PiggyBank.withdraw-&gt;PiggyBank.payable">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M128.94,-45.58C154.81,-54 189.91,-65.43 217.16,-74.3" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="216.22,-77.67 226.82,-77.44 218.39,-71.02 216.22,-77.67" style=""/>
+</g>
+<!-- key -->
+<g id="node6" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="157.35,-297 27.35,-297 27.35,-209 157.35,-209 157.35,-297" style=""/>
+<text text-anchor="start" x="76.99" y="-278.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="73.1" y="-258.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="50.56" y="-238.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="36.95" y="-218.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node7" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="287.25,-297 233.25,-297 233.25,-209 287.25,-209 287.25,-297" style=""/>
+<text text-anchor="start" x="250.25" y="-278.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="250.25" y="-258.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="248.25,-233 248.25,-253 273.25,-253 273.25,-233 248.25,-233" style=""/>
+<text text-anchor="start" x="250.25" y="-238.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="250.25,-215 250.25,-231 271.25,-231 271.25,-215 250.25,-215" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M150.35,-283C189.72,-283 202.1,-283 236.83,-283" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="237.25,-286.5 247.25,-283 237.25,-279.5 237.25,-286.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge4" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M150.35,-263C189.72,-263 202.1,-263 236.83,-263" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="237.25,-266.5 247.25,-263 237.25,-259.5 237.25,-266.5" style=""/>
+</g>
+</g>
+</svg>

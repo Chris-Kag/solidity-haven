@@ -1,0 +1,124 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="404pt" height="756pt" viewBox="0.00 0.00 404.20 756.00">
+<g id="graph0" class="graph" transform="translate(4,752) scale(1)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="transparent" points="-4,4 -4,-752 400.2,-752 400.2,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterMultiSigWallet">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 376.2,-8 376.2,-8 382.2,-8 388.2,-14 388.2,-20 388.2,-20 388.2,-591 388.2,-591 388.2,-597 382.2,-603 376.2,-603 376.2,-603 20,-603 20,-603 14,-603 8,-597 8,-591 8,-591 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="198.1" y="-586.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">MultiSigWallet</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="19.35,-611 19.35,-740 327.45,-740 327.45,-611 19.35,-611" style=""/>
+<text text-anchor="middle" x="173.4" y="-723.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- MultiSigWallet.onlyOwner -->
+<g id="node1" class="node" pointer-events="visible" data-name="MultiSigWallet.onlyOwner">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="151.3,-540.54 151.3,-555.46 116.77,-566 67.94,-566 33.41,-555.46 33.41,-540.54 67.94,-530 116.77,-530 151.3,-540.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="155.3,-537.58 155.3,-558.42 117.37,-570 67.34,-570 29.41,-558.42 29.41,-537.58 67.34,-526 117.37,-526 155.3,-537.58" style=""/>
+<text text-anchor="middle" x="92.35" y="-543.8" font-family="Times,serif" font-size="14.00" style="">onlyOwner</text>
+</g>
+<!-- MultiSigWallet.txExists -->
+<g id="node2" class="node" pointer-events="visible" data-name="MultiSigWallet.txExists">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="138.1,-478.54 138.1,-493.46 111.3,-504 73.4,-504 46.6,-493.46 46.6,-478.54 73.4,-468 111.3,-468 138.1,-478.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="142.12,-475.82 142.12,-496.18 112.07,-508 72.64,-508 42.59,-496.18 42.59,-475.82 72.64,-464 112.07,-464 142.12,-475.82" style=""/>
+<text text-anchor="middle" x="92.35" y="-481.8" font-family="Times,serif" font-size="14.00" style="">txExists</text>
+</g>
+<!-- MultiSigWallet.notApproved -->
+<g id="node3" class="node" pointer-events="visible" data-name="MultiSigWallet.notApproved">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="159.55,-416.54 159.55,-431.46 120.19,-442 64.52,-442 25.15,-431.46 25.15,-416.54 64.52,-406 120.19,-406 159.55,-416.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="163.56,-413.48 163.56,-434.52 120.72,-446 63.99,-446 21.15,-434.52 21.15,-413.48 63.99,-402 120.72,-402 163.56,-413.48" style=""/>
+<text text-anchor="middle" x="92.35" y="-419.8" font-family="Times,serif" font-size="14.00" style="">notApproved</text>
+</g>
+<!-- MultiSigWallet.notExecuted -->
+<g id="node4" class="node" pointer-events="visible" data-name="MultiSigWallet.notExecuted">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="156.72,-354.54 156.72,-369.46 119.01,-380 65.69,-380 27.99,-369.46 27.99,-354.54 65.69,-344 119.01,-344 156.72,-354.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="160.73,-351.51 160.73,-372.49 119.57,-384 65.14,-384 23.98,-372.49 23.98,-351.51 65.14,-340 119.57,-340 160.73,-351.51" style=""/>
+<text text-anchor="middle" x="92.35" y="-357.8" font-family="Times,serif" font-size="14.00" style="">notExecuted</text>
+</g>
+<!-- MultiSigWallet.&lt;Constructor&gt; -->
+<g id="node5" class="node" pointer-events="visible" data-name="MultiSigWallet.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="92.35" cy="-304" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-299.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- MultiSigWallet.&lt;Receive Ether&gt; -->
+<g id="node6" class="node" pointer-events="visible" data-name="MultiSigWallet.&lt;Receive Ether&gt;">
+
+<ellipse fill="#ffbdb9" stroke="brown" stroke-width="3" cx="92.35" cy="-250" rx="76.21" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-245.8" font-family="Times,serif" font-size="14.00" style="">&lt;Receive Ether&gt;</text>
+</g>
+<!-- MultiSigWallet.submit -->
+<g id="node7" class="node" pointer-events="visible" data-name="MultiSigWallet.submit">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="92.35" cy="-196" rx="37.16" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-191.8" font-family="Times,serif" font-size="14.00" style="">submit</text>
+</g>
+<!-- MultiSigWallet.approve -->
+<g id="node8" class="node" pointer-events="visible" data-name="MultiSigWallet.approve">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="92.35" cy="-142" rx="42.28" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-137.8" font-family="Times,serif" font-size="14.00" style="">approve</text>
+</g>
+<!-- MultiSigWallet._getApprovalCount -->
+<g id="node9" class="node" pointer-events="visible" data-name="MultiSigWallet._getApprovalCount">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="292.45" cy="-88" rx="87.99" ry="18" style=""/>
+<text text-anchor="middle" x="292.45" y="-83.8" font-family="Times,serif" font-size="14.00" style="">_getApprovalCount</text>
+</g>
+<!-- MultiSigWallet.execute -->
+<g id="node10" class="node" pointer-events="visible" data-name="MultiSigWallet.execute">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="92.35" cy="-88" rx="40.54" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-83.8" font-family="Times,serif" font-size="14.00" style="">execute</text>
+</g>
+<!-- MultiSigWallet.execute&#45;&gt;MultiSigWallet._getApprovalCount -->
+<g id="edge1" class="edge" data-name="MultiSigWallet.execute-&gt;MultiSigWallet._getApprovalCount">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M132.96,-88C150.71,-88 172.48,-88 194.15,-88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="194.42,-91.5 204.42,-88 194.42,-84.5 194.42,-91.5" style=""/>
+</g>
+<!-- MultiSigWallet.revoke -->
+<g id="node11" class="node" pointer-events="visible" data-name="MultiSigWallet.revoke">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="92.35" cy="-34" rx="37.12" ry="18" style=""/>
+<text text-anchor="middle" x="92.35" y="-29.8" font-family="Times,serif" font-size="14.00" style="">revoke</text>
+</g>
+<!-- key -->
+<g id="node12" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="157.35,-707 27.35,-707 27.35,-619 157.35,-619 157.35,-707" style=""/>
+<text text-anchor="start" x="76.99" y="-688.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="73.1" y="-668.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="50.56" y="-648.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="36.95" y="-628.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node13" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="transparent" stroke-width="3" points="319.45,-707 265.45,-707 265.45,-619 319.45,-619 319.45,-707" style=""/>
+<text text-anchor="start" x="282.45" y="-688.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="282.45" y="-668.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="transparent" points="280.45,-643 280.45,-663 305.45,-663 305.45,-643 280.45,-643" style=""/>
+<text text-anchor="start" x="282.45" y="-648.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="282.45,-625 282.45,-641 303.45,-641 303.45,-625 282.45,-625" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge2" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M150.35,-693C204.14,-693 220.11,-693 269.18,-693" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="269.45,-696.5 279.45,-693 269.45,-689.5 269.45,-696.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge3" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M150.35,-673C204.14,-673 220.11,-673 269.18,-673" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="269.45,-676.5 279.45,-673 269.45,-669.5 269.45,-676.5" style=""/>
+</g>
+</g>
+</svg>
